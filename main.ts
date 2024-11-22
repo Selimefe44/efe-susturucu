@@ -1,6 +1,3 @@
-input.onSound(DetectedSound.Loud, function () {
-	
-})
 basic.forever(function () {
     if (input.soundLevel() < 128) {
         basic.showIcon(IconNames.Heart)
